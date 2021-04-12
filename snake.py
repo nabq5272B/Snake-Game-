@@ -41,7 +41,7 @@ scr.shape("square")
 scr.color("red")
 scr.penup()
 scr.hideturtle()
-scr.goto(0,260)
+scr.goto(0,310)
 scr.write("Score: 0 | High score: 0", align = "center", font=("arial",20, "normal"))
 
 #Functions
