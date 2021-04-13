@@ -42,7 +42,7 @@ scr.color("red")
 scr.penup()
 scr.hideturtle()
 scr.goto(0,310)
-scr.write("Score: 0 | High score: 0", align = "center", font=("arial",20, "normal"))
+scr.write("Score: 0 | High score: 0", align = "center", font=("ds-digital",20, "normal"))
 
 #Functions
 def up():
@@ -102,7 +102,7 @@ while True:
 
         # Printing New Scores
         scr.clear()
-        scr.write(f"Score: {score} | High score: {high_score}", align="center", font=("arial", 20, "normal"))
+        scr.write(f"Score: {score} | High score: {high_score}", align="center", font=("ds-digital", 20, "normal"))
 
     # Collision with Food
     if head.distance(food) <20:
@@ -130,7 +130,7 @@ while True:
         
         # Printing New Scores
         scr.clear()
-        scr.write(f"Score: {score} | High score: {high_score}", align="center", font=("center", 20, "normal")) 
+        scr.write(f"Score: {score} | High score: {high_score}", align="center", font=("ds-digital", 20, "normal")) 
 
     # Moving the segment in reverse order
     for i in range(len(segments)-1,0,-1):
@@ -167,7 +167,7 @@ while True:
 
             # Printing New Scores   
             scr.clear()
-            scr.write(f"Score: {score} | High score: {high_score}", align="center", font=("arial", 20, "normal"))
+            scr.write(f"Score: {score} | High score: {high_score}", align="center", font=("ds-digital", 20, "normal"))
     
     time.sleep(delay)
 
